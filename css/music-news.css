@@ -1,0 +1,51 @@
+.music-news {
+	display: flex;
+	flex-direction: column;
+}
+
+.music-news h3 {
+	color: rgb(128, 0, 128);
+	font-size: 1.5em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.music-news .first-item {
+	position: relative;
+	background-image: url('../images/hot-video/item1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 150px;
+}
+
+.music-news .first-item p {
+	color: #FFF;
+	font-weight: 600;
+	position: absolute;
+	bottom: 2%;
+	left: 2%;
+}
+
+.music-news .item {
+	display: flex;
+	margin: 8px 0;
+}
+
+.music-news .item .image {
+	position: relative;
+	width: 100px;
+	height: 66px;
+}
+
+.music-news .item .image img {
+	width: 100%;
+	height: 100%;
+}
+
+.music-news .item .image:hover .overlay {
+	opacity: 1;
+}
+
+.music-news .item p {
+	padding: 0 16px;
+}

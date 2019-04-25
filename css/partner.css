@@ -1,0 +1,29 @@
+.partner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.partner h4 {
+	width: 10%;
+	text-transform: uppercase;
+	color: #999;
+	margin: 0;
+}
+
+.partner .list-partner {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	width: 90%;
+}
+
+.partner .list-partner .item {
+	width: 10%;
+	height: 46px;
+}
+
+.partner .list-partner .item img {
+	width: 100%;
+	height: 100%;
+}

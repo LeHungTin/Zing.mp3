@@ -33,3 +33,12 @@
 	color: #FFF;
 	text-transform: capitalize;
 }
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: rgb(128, 0, 128);
+}

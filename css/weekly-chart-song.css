@@ -3,18 +3,29 @@
 	flex-direction: column;
 }
 
+.weekly-chart-song h3 {
+	color: rgb(128, 0, 128);
+	font-size: 1.5em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
 .weekly-chart-song .first-item {
 	position: relative;
-	background-image: url('../images//hot-video/item1.jpg');
+	background-image: url('../images/hot-video/item1.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 150px;
 }
 
 .weekly-chart-song .first-item .item {
+	width: 100%;
 	position: absolute;
 	color: #FFF;
-	bottom: 2%;
+	bottom: 0;
+	padding: 0;
+	border-bottom: none;
+	display: flex;
 }
 
 .weekly-chart-song .first-item:hover .overlay {
@@ -32,7 +43,8 @@
 	align-items: center;
 	display: flex;
 	padding: 16px 0;
-	border-bottom: 1px splid #DDD;
+	margin-bottom: 16px;
+	border-bottom: 1px solid #DDD;
 }
 
 .weekly-chart-song .item .number {

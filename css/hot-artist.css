@@ -9,8 +9,13 @@
 }
 
 .hot-artist .first-item {
+	position: relative;
 	width: 208px;
 	height: 210px;
+}
+
+.hot-artist .first-item:hover .overlay {
+	opacity: 1;
 }
 
 .hot-artist .first-item img {
