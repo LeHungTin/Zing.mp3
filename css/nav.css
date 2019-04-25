@@ -35,11 +35,12 @@ nav .main-menu .has-sub-menu {
 
 nav .main-menu .has-sub-menu:hover .sub-menu {
 	display: flex;
+	background-color: #FFF;
+	padding: 0 20px;
 }
 
 nav .main-menu .sub-menu {
 	display: none;
-	padding: 0;
 	position: absolute;
 	list-style: none;
 	top: 100%;
