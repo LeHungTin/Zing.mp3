@@ -47,3 +47,7 @@
 	width: 100%;
 	height: 100%;
 }
+
+.hot-artist .right .row .item:hover .overlay {
+	opacity: 1;
+}

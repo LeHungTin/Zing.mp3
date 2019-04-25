@@ -20,3 +20,16 @@
 .overlay:hover img{
 	transform: scale(0.5);
 }
+
+.overlay p {
+	color: #FFF;
+	transform: scale(0.5);
+	transition: all 0.3s;
+	text-transform: capitalize;
+}
+
+.overlay:hover p {
+	transform: scale(1);
+	color: #FFF;
+	text-transform: capitalize;
+}
