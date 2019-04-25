@@ -5,6 +5,18 @@
 	text-transform: uppercase;
 }
 
+.hot-topic h4 {
+	color: #999;
+}
+
+.hot-topic h4:hover {
+	color: rgb(128, 0, 128);
+}
+
+.hot-topic .item {
+	padding-bottom: 16px;
+}
+
 .hot-topic .item img {
 	width: 100%;
 	height: 100%;

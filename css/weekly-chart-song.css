@@ -1,0 +1,62 @@
+.weekly-chart-song {
+	display: flex;
+	flex-direction: column;
+}
+
+.weekly-chart-song .first-item {
+	position: relative;
+	background-image: url('../images//hot-video/item1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 150px;
+}
+
+.weekly-chart-song .first-item .item {
+	position: absolute;
+	color: #FFF;
+	bottom: 2%;
+}
+
+.weekly-chart-song .first-item:hover .overlay {
+	opacity: 1;
+}
+
+.weekly-chart-song .first-item img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.weekly-chart-song .item {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding: 16px 0;
+	border-bottom: 1px splid #DDD;
+}
+
+.weekly-chart-song .item .number {
+	padding: 0 16px;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.weekly-chart-song .item .info {
+	text-transform: capitalize;
+	font-size: 14px;
+	flex-grow: 1;
+}
+
+.weekly-chart-song .item .info .title {
+	margin-bottom: 8px;
+}
+
+.weekly-chart-song .item .info .singer {
+	color: #999;
+	font-size: 13px;
+}
+
+.weekly-chart-song .item .view-count {
+	color: #999;
+}
+
