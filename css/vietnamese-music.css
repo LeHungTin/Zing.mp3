@@ -1,0 +1,55 @@
+.vietnamese-music {
+	display: flex;
+}
+
+.vietnamese-music h3 {
+	color: rgb(128, 0, 128);
+	font-size: 1.5em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.vietnamese-music .left {
+	padding: 0 12px 0 6px;
+	border-right: 1px solid #CCC;
+}
+
+.vietnamese-music .right {
+	padding: 0 6px 0 12px;
+}
+
+.vietnamese-music .item {
+	display: flex;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #DDD;
+}
+
+.vietnamese-music .item .image {
+	position: relative;
+	width: 50px;
+	height: 50px;
+}
+
+.vietnamese-music .item .image:hover .overlay {
+	opacity: 1;
+}
+
+.vietnamese-music .item .image img {
+	width: 100%;
+	height: 100%;
+}
+
+.vietnamese-music .item .info {
+	padding: 0 16px;
+}
+
+.vietnamese-music .item .info .title {
+	text-transform: capitalize;
+	margin-bottom: 8px;
+}
+
+.vietnamese-music .item .info .singer {
+	text-transform: capitalize;
+	font-size: 13px;
+	color: #999;
+}

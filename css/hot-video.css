@@ -1,56 +1,56 @@
-.feel h3 {
+.hot-video h3 {
 	color: rgb(128, 0, 128);
 	font-size: 1.5em;
 	font-weight: 300;
 	text-transform: uppercase;
 }
 
-.feel p {
+.hot-video p {
 	color: ;
 	margin: 0 0 20px;
 }
 
-.feel .wrapper {
+.hot-video .wrapper {
  	display: flex;
  	flex-direction: column;
 }
 
-.feel .wrapper .row {
+.hot-video .wrapper .row {
 	display: flex;
 }
 
-.feel .feel-item {
+.hot-video .hot-video-item {
 	width: 180px;
 	display: flex;
 	flex-direction: column;
-	min-height: 200px;
+	min-height: 150px;
 	padding: 0 8px;
 }
 
-.feel .feel-item .image {
-	width: 150px;
-	height: 150px;
+.hot-video .hot-video-item .image {
+	width: 142px;
+	height: 80px;
 	position: relative;
 	margin-bottom: 10px;
 }
 
-.feel .feel-item .image:hover .overlay{
+.hot-video .hot-video-item .image:hover .overlay{
 	opacity: 1;
 }
 
-.feel .feel-item .image img{
+.hot-video .hot-video-item .image img{
 	width: 100%;
 	height: 100%;
 }
 
-.feel .feel-item .title {
+.hot-video .hot-video-item .title {
 	font-weight: 500;
 	font-size: 14px;
 	text-transform: capitalize;
 	margin-bottom: 8px;
 }
 
-.feel .feel-item .singer {
+.hot-video .hot-video-item .singer {
 	font-weight: 300;
 	font-size: 13px;
 	color: #999;
