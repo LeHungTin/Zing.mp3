@@ -1,68 +1,60 @@
-* {
-	box-sizing: border-box;
-	font-family: Arial, sans-serif;
-}
-
-.header {
-	
-}
-
-.header header {
+header {
 	background-color: #111;
 	color: #FFF;
-	display: grid;
+	display: flex;
 	grid-template-columns: 20% 40% 30% 10%;
 	height: 50px;
 }
 
-.header header .logo {
+header .logo {
 	display: flex;
-	justify-content: center;
+	flex-basis: 15%;
 	align-items: center;
 	height: 50px;
 }
 
-.header header .logo img {
+header .logo img {
 	height: 36px; 
 }
 
-.header header .search-form {
+header .search-form {
+	flex-basis: 35%;
 	margin: 10px 0;
 	height: 30px;
 	display: flex;
 	background-color: #FFF;
 }
 
-.header header .search-form form {
+header .search-form form {
 	flex-grow: 1;
 	display: flex;
 }
 
-.header header .search-form form .input {
+header .search-form form .input {
 	flex-grow: 1;
 	display: flex;
 	align-items: center;
 	grid-template-columns: 95% 5%;
 }
 
-.header header .search-form form .input input {
+header .search-form form .input input {
 	flex-basis: 94%;
 	height: 100%;
 	padding: 0 8px;
 	border: none;
 }
 
-.header header .search-form form .input button {
+header .search-form form .input button {
 	height: 100%;
 	background: #FFF;
 	border: none;
 }
 
-.header header .search-form form .input button:hover {
+header .search-form form .input button:hover {
 	background: #DDD;
 }
 
-.header header .search-form form .input i {
+header .search-form form .input i {
 	color: #333;
 	flex-basis: 6%;
 	padding: 4px;
@@ -71,14 +63,15 @@
 	align-items: center;
 }
 
-.header header .list-item {
+header .list-item {
 	display: flex;
+	flex-basis: 35%;
 	list-style: none;
 	height: 50px;
 	margin: 0;
 }
 
-.header header .list-item .item {
+header .list-item .item {
 	padding: 0 10px;
 	display: flex;
 	justify-content: center;
@@ -88,17 +81,18 @@
 	text-transform: uppercase;
 }
 
-.header header .list-item .item:hover {
+header .list-item .item:hover {
 	background-color: #000;
 	color: rgb(168, 69, 222);
 }
 
-.header header .list-item .active {
+header .list-item .active {
 	background-color: #000;
 	color: rgb(168, 69, 222);
 }
 
-.header header .individual {
+header .individual {
+	flex-basis: 15%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -106,18 +100,18 @@
 	position: relative;
 }
 
-.header header .individual .img {
+header .individual .img {
 	width: 20px;
 	height: 20px;
 	background-image: url('../images/header/individual.jpg');
 	background-size: cover;
 }
 
-.header header .individual .text {
+header .individual .text {
 	font-size: 13px;
 }
 
-.header header .individual .hidden {
+header .individual .hidden {
 	width: 310px;
 	height: 140px;
 	background-color: #FFF;
@@ -128,16 +122,16 @@
 	padding: 15px 20px;
 }
 
-.header header .individual:hover .hidden {
+header .individual:hover .hidden {
 	display: flex;
 }
 
-.header header .individual .hidden img {
+header .individual .hidden img {
 	width: 80px;
 	height: 80px;
 }
 
-.header header .individual .hidden .option {
+header .individual .hidden .option {
 	height: 80px;
 	padding: 0 16px;
 	display: flex;
@@ -145,12 +139,12 @@
 	justify-content: space-around;
 }
 
-.header header .individual .hidden .option a {
+header .individual .hidden .option a {
 	color: #000;
 	text-decoration: none;
 	margin-bottom: 8px;
 }
 
-.header header .individual .hidden .option a:hover {
+header .individual .hidden .option a:hover {
 	color: #f948c9;
 }

@@ -27,6 +27,8 @@
 	color: #FFF;
 	width: 100%;
 	border-bottom: none;
+	margin-bottom: 0;
+	padding: 0;
 }
 
 .weekly-chart-mv .first-item .item .number {

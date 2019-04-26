@@ -1,8 +1,13 @@
+.hot-video {
+	margin-bottom: 16px;
+}
+
 .hot-video h3 {
 	color: rgb(128, 0, 128);
 	font-size: 1.5em;
 	font-weight: 300;
 	text-transform: uppercase;
+	margin-bottom: 8px;
 }
 
 .hot-video p {

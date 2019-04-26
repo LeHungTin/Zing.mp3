@@ -48,4 +48,10 @@
 
 .music-news .item p {
 	padding: 0 16px;
+	font-size: 14px;
+	color: #333;
+}
+
+.music-news .item p:hover {
+	color: rgb(128, 0, 128);
 }

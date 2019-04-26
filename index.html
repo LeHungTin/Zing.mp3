@@ -4,22 +4,1591 @@
 	<meta charset="UTF-8">
 	<title>Zing MP3 | Nghe tải nhạc chất lượng cao trên desktop, mobile và TV</title>
 	<link rel="icon" type="image/png" href="https://static-zmp3.zadn.vn/skins/zmp3-v5.1/images/icon_zing_mp3_60.png" />
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/banner.css">
+	<link rel="stylesheet" href="css/zing-chart.css">
+	<link rel="stylesheet" href="css/feel.css">
+	<link rel="stylesheet" href="css/hot-video.css">
+	<link rel="stylesheet" href="css/vietnamese-music.css">
+	<link rel="stylesheet" href="css/hot-artist.css">
+	<link rel="stylesheet" href="css/hot-topic.css">
+	<link rel="stylesheet" href="css/weekly-chart-song.css">
+	<link rel="stylesheet" href="css/weekly-chart-mv.css">
+	<link rel="stylesheet" href="css/music-news.css">
+	<link rel="stylesheet" href="css/partner.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
 </head>
 <body>
+	<!-- header -->
 	<div class="header">
 		<div class="empty"></div>
-		<div class="container">
-			<header>
-			
-			</header>
-			<nav>
-				
-			</nav>
-		</div>
+		<header>
+			<div class="logo">
+				<a href="#"><img src="images/icons/logo.png" alt="" /></a>
+			</div>
+			<div class="search-form">
+				<form action="">
+					<div class="input">
+					<input type="text" name="" value="" placeholder="Nhập nội dung cần tìm">
+					<button><i class="fas fa-search"></i></button>
+					</div>
+				</form>
+			</div>
+			<ul class="list-item">
+				<a class="item active" href="#"><li>Mp3</li></a>
+				<a class="item" href="#"><li>News</li></a>
+				<a class="item" href="#"><li>Tv</li></a>
+				<a class="item" href="#"><li>Zalo Pc</li></a>
+			</ul>
+			<div class="individual">
+				<div class="hidden">
+					<img src="images/header/individual.jpg" alt="">
+					<div class="option">
+						<a href="#"><i class="far fa-user-circle"></i> Nhạc cá nhân</a>
+						<a href="#"><i class="fas fa-sign-out-alt"></i> Đăng xuất</a>						
+					</div>
+				</div>
+				<div class="img"></div>
+				<div class="text">Cá nhân</div>
+				<div class="icon"><i class="fas fa-chevron-down"></i></div>
+			</div>
+		</header>
 		<div class="empty"></div>
 	</div>
-	<div class="content"></div>
-	<div class="footer"></div>
+	<!-- !header -->
+
+	<!-- nav -->
+	<div class="nav">
+		<div class="empty"></div>
+		<nav>
+			<ul class="main-menu">
+				<li><a href="#"><i class="fas fa-home"></i></a></li>
+				<li><a href="#">Nhạc cá nhân</a></li>
+				<li class="has-sub-menu">
+					<a href="#">#zingchart</a>
+					<ul class="sub-menu">
+						<li>
+							<ul class="list-item">
+								<li><h4>#zingchart</h4></li>
+								<li><a href="#">bài hát</a></li>
+								<li><a href="#">mv</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="list-item">
+								<li><h4>Tuần</h4></li>
+								<li><a href="#">bài hát</a></li>
+								<li><a href="#">mv</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="list-item">
+								<li><h4>Us - Uk chart</h4></li>
+								<li><a href="#">bài hát</a></li>
+								<li><a href="#">mv</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="list-item">
+								<li><h4>Kpop chart</h4></li>
+								<li><a href="#">bài hát</a></li>
+								<li><a href="#">mv</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="has-sub-menu">
+					<a href="#">Top 100</a>
+					<ul class="sub-menu">
+						<li>
+							<ul class="list-item">
+								<li><a href="#">việt nam</a></li>
+								<li><a href="#">âu mỹ</a></li>
+								<li><a href="#">Châu Á</a></li>
+								<li><a href="#">Hòa Tấu</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</li>
+				<li class="has-sub-menu">
+					<a href="#">Chủ đề</a>
+					<ul class="sub-menu">
+						<li>
+							<ul class="list-item">
+								<li><h4>Đề xuất</h4></li>
+								<li><a href="#">bài hát</a></li>
+								<li><a href="#">nhạc HOT</a></li>
+								<li><a href="#">những bài HITs mới</a></li>
+								<li><a href="#">nhạc việt bất hủ</a></li>
+								<li><a href="#">nhạc bất hủ âu mỹ</a></li>
+								<li><a href="#">kpop HITs</a></li>
+								<li><a href="#">nhạc thúy nga</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="list-item">
+								<li><h4>Thể loại</h4></li>
+								<li><a href="#">EDM</a></li>
+								<li><a href="#">Acoustic</a></li>
+								<li><a href="#">Indie</a></li>
+								<li><a href="#">Nhạc không lời</a></li>
+								<li><a href="#">Trữ tình & Bolero</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="list-item">
+								<li><h4>Tâm trạng</h4></li>
+								<li><a href="#">Những ngày mưa</a></li>
+								<li><a href="#">Tình yêu</a></li>
+								<li><a href="#">Buồn</a></li>
+								<li><a href="#">Thư giãn</a></li>
+								<li><a href="#">Động lực</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="list-item">
+								<li><h4>Hoạt động</h4></li>
+								<li><a href="#">Làm việc</a></li>
+								<li><a href="#">Yoga</a></li>
+								<li><a href="#">Cà phê</a></li>
+								<li><a href="#">Cuối tuần</a></li>
+								<li><a href="#">Tiệc tùng</a></li>
+								<li><a href="#">Du lịch</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="has-sub-menu">
+					<a href="#">Video</a>
+					<ul class="sub-menu">
+						<li>
+							<ul class="list-item">
+								<li><h4>việt nam</h4></li>
+								<li><a href="#">nhạc trẻ</a></li>
+								<li><a href="#">nhạc trữ tình</a></li>
+								<li><a href="#">dance việt</a></li>
+								<li><a href="#">rock việt</a></li>
+								<li><a href="#">rap / hip hop việt</a></li>
+								<li><a href="#">nhạc trịnh</a></li>
+								<li><a href="#">nhạc thiếu nhi</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="list-item">
+								<li><h4>âu mỹ</h4></li>
+								<li><a href="#">pop</a></li>
+								<li><a href="#">rock</a></li>
+								<li><a href="#">rap / hip hop</a></li>
+								<li><a href="#">country</a></li>
+								<li><a href="#">electronic / dance</a></li>
+								<li><a href="#">R&B soul</a></li>
+								<li><a href="#">audiophile</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="list-item">
+								<li><h4>châu á</h4></li>
+								<li><a href="#">hàn quốc</a></li>
+								<li><a href="#">nhật bản</a></li>
+								<li><a href="#">hoa ngữ</a></li>
+								<li><a href="#">thái lan</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="list-item">
+								<li><h4>hòa tấu</h4></li>
+								<li><a href="#">classical</a></li>
+								<li><a href="#">piano</a></li>
+								<li><a href="#">giutar</a></li>
+								<li><a href="#">violin</a></li>
+								<li><a href="#">cello</a></li>
+								<li><a href="#">saxophone</a></li>
+								<li><a href="#">nhạc cụ dân tộc</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="has-sub-menu">
+					<a href="#">Album</a>
+					<ul class="sub-menu">
+						<li>
+							<ul class="list-item">
+								<li><h4>việt nam</h4></li>
+								<li><a href="#">nhạc trẻ</a></li>
+								<li><a href="#">nhạc trữ tình</a></li>
+								<li><a href="#">dance việt</a></li>
+								<li><a href="#">rock việt</a></li>
+								<li><a href="#">rap / hip hop việt</a></li>
+								<li><a href="#">nhạc trịnh</a></li>
+								<li><a href="#">nhạc thiếu nhi</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="list-item">
+								<li><h4>âu mỹ</h4></li>
+								<li><a href="#">pop</a></li>
+								<li><a href="#">rock</a></li>
+								<li><a href="#">rap / hip hop</a></li>
+								<li><a href="#">country</a></li>
+								<li><a href="#">electronic / dance</a></li>
+								<li><a href="#">R&B soul</a></li>
+								<li><a href="#">audiophile</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="list-item">
+								<li><h4>châu á</h4></li>
+								<li><a href="#">hàn quốc</a></li>
+								<li><a href="#">nhật bản</a></li>
+								<li><a href="#">hoa ngữ</a></li>
+								<li><a href="#">thái lan</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="list-item">
+								<li><h4>hòa tấu</h4></li>
+								<li><a href="#">classical</a></li>
+								<li><a href="#">piano</a></li>
+								<li><a href="#">giutar</a></li>
+								<li><a href="#">violin</a></li>
+								<li><a href="#">cello</a></li>
+								<li><a href="#">saxophone</a></li>
+								<li><a href="#">nhạc cụ dân tộc</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="has-sub-menu">
+					<a href="#">Nghệ sỹ</a>
+					<ul class="sub-menu">
+						<li>
+							<ul class="list-item">
+								<li><a href="#">việt nam</a></li>
+								<li><a href="#">âu mỹ</a></li>
+								<li><a href="#">hàn quốc</a></li>
+								<li><a href="#">nhật bản</a></li>
+								<li><a href="#">hoa ngữ</a></li>
+								<li><a href="#">hòa tấu</a></li>
+							</ul>
+						</li>
+						
+					</ul>	
+				</li>
+				<li class="has-sub-menu">
+					<a href="#">VIP</a>
+					<ul class="sub-menu">
+						<li>
+							<ul class="list-item">
+								<li><a href="#">mua VIP</a></li>
+								<li><a href="#">giới thiệu VIP</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<div class="empty"></div>
+	</div>
+	<!-- !nav -->
+	
+	<!-- section -->
+	<div class="section">
+		<div class="empty"></div>
+		
+		<!-- content -->
+		<div class="content">
+			
+			<!-- main-content -->
+			<div class="main-content">
+
+				<!-- main -->
+				<div class="main">
+					<!-- banner -->
+					<div class="banner">
+						<div class="image">
+							<img src="images/banner/item1.jpg" alt="">
+						</div>
+						<div class="slide">
+							<div class="item">
+								<img src="images/banner/item1.jpg" alt="">
+								<div class="overlay"></div>
+							</div>
+							<div class="item">
+								<img src="images/banner/item2.jpg" alt="">
+								<div class="overlay"></div>
+							</div>
+							<div class="item">
+								<img src="images/banner/item3.jpg" alt="">
+								<div class="overlay"></div>
+							</div>
+							<div class="item">
+								<img src="images/banner/item4.jpg" alt="">
+								<div class="overlay"></div>
+							</div>
+							<div class="item">
+								<img src="images/banner/item5.jpg" alt="">
+								<div class="overlay"></div>
+							</div>
+						</div>
+					</div>
+					<!-- banner -->
+
+					<!-- zing-chart -->
+					<div class="zing-chart">
+						<div class="zing-chart-item">
+							<div class="number">1 <i class="fas fa-minus"></i></div>
+							<div class="info">
+								<a href="#">
+									<div class="image">
+										<img src="./images/zing-chart/item1.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="song">
+									<div class="title"><a href="#">Đừng yêu nữa em mệt rồi</a></div>
+									<div class="singer"><a href="#">Min</a></div>
+								</div>
+							</div>
+							<div class="icon">
+								<a href="#"><i class="fas fa-film"></i></a>
+								<a href="#"><i class="fas fa-arrow-down"></i></a>
+								<a href="#"><i class="fas fa-plus"></i></a>
+								<a href="#"><i class="fas fa-share-alt"></i></a>
+							</div>
+							<div class="view-count">122,568</div>
+						</div>
+						<div class="zing-chart-item">
+							<div class="number">2 <i class="fas fa-minus"></i></div>
+							<div class="info">
+								<a href="#">
+									<div class="image">
+										<img src="./images/zing-chart/item2.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="song">
+									<div class="title"><a href="#">Đừng yêu nữa em mệt rồi</a></div>
+									<div class="singer"><a href="#">Min</a></div>
+								</div>
+							</div>
+							<div class="icon">
+								<a href="#"><i class="fas fa-film"></i></a>
+								<a href="#"><i class="fas fa-arrow-down"></i></a>
+								<a href="#"><i class="fas fa-plus"></i></a>
+								<a href="#"><i class="fas fa-share-alt"></i></a>
+							</div>
+							<div class="view-count">122,568</div>
+						</div>
+						<div class="zing-chart-item">
+							<div class="number">3 <i class="fas fa-minus"></i></div>
+							<div class="info">
+								<a href="#">
+									<div class="image">
+										<img src="./images/zing-chart/item3.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="song">
+									<div class="title"><a href="#">Đừng yêu nữa em mệt rồi</a></div>
+									<div class="singer"><a href="#">Min</a></div>
+								</div>
+							</div>
+							<div class="icon">
+								<a href="#"><i class="fas fa-film"></i></a>
+								<a href="#"><i class="fas fa-arrow-down"></i></a>
+								<a href="#"><i class="fas fa-plus"></i></a>
+								<a href="#"><i class="fas fa-share-alt"></i></a>
+							</div>
+							<div class="view-count">122,568</div>
+						</div>
+						<div class="zing-chart-item">
+							<div class="number">4 <i class="fas fa-minus"></i></div>
+							<div class="info">
+								<a href="#">
+									<div class="image">
+										<img src="./images/zing-chart/item4.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="song">
+									<div class="title"><a href="#">Đừng yêu nữa em mệt rồi</a></div>
+									<div class="singer"><a href="#">Min</a></div>
+								</div>
+							</div>
+							<div class="icon">
+								<a href="#"><i class="fas fa-film"></i></a>
+								<a href="#"><i class="fas fa-arrow-down"></i></a>
+								<a href="#"><i class="fas fa-plus"></i></a>
+								<a href="#"><i class="fas fa-share-alt"></i></a>
+							</div>
+							<div class="view-count">122,568</div>
+						</div>
+						<div class="zing-chart-item">
+							<div class="number">5 <i class="fas fa-minus"></i></div>
+							<div class="info">
+								<a href="#">
+									<div class="image">
+										<img src="./images/zing-chart/item5.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="song">
+									<div class="title"><a href="#">Đừng yêu nữa em mệt rồi</a></div>
+									<div class="singer"><a href="#">Min</a></div>
+								</div>
+							</div>
+							<div class="icon">
+								<a href="#"><i class="fas fa-film"></i></a>
+								<a href="#"><i class="fas fa-arrow-down"></i></a>
+								<a href="#"><i class="fas fa-plus"></i></a>
+								<a href="#"><i class="fas fa-share-alt"></i></a>
+							</div>
+							<div class="view-count">122,568</div>
+						</div>
+					</div>
+					<!-- zing-chart -->
+
+					<!-- feel -->
+					<div class="feel">
+						<a href="#"><h3>Cảm xúc <i class="fas fa-angle-right"></i></h3></a>
+						<p>Những ca khúc gợi lên các cung bậc cảm xúc trong ta</p>
+						<div class="wrapper">
+							<div class="row">
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/feel/item1.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/feel/item2.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/feel/item3.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/feel/item4.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/feel/item5.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/feel/item6.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/feel/item7.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/feel/item8.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- !feel -->
+
+					<!-- hot-video -->
+					<div class="hot-video">
+						<a href="#"><h3>Video hot <i class="fas fa-angle-right"></i></h3></a>
+						<div class="wrapper">
+							<div class="row">
+								<div class="hot-video-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-video/item1.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="hot-video-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-video/item2.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="hot-video-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-video/item3.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="hot-video-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-video/item4.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="hot-video-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-video/item5.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="hot-video-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-video/item6.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="hot-video-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-video/item7.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="hot-video-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-video/item8.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="hot-video-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-video/item9.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="hot-video-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-video/item10.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="hot-video-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-video/item11.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="hot-video-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-video/item12.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- !hot-video -->
+
+					<!-- hot-album -->
+					<div class="feel">
+						<a href="#"><h3>Album hot <i class="fas fa-angle-right"></i></h3></a>
+						<div class="wrapper">
+							<div class="row">
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-album/item1.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-album/item2.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-album/item3.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-album/item4.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-album/item5.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-album/item6.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-album/item7.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-album/item8.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-album/item9.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-album/item10.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-album/item11.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+								<div class="feel-item">
+									<a href="#">
+										<div class="image">
+											<img src="images/hot-album/item12.jpg" alt="">
+											<div class="overlay">
+												<img src="images/icons/play.png" alt="">
+											</div>
+										</div>
+									</a>
+									<div class="title"><a href="#">Moody Midweek</a></div>
+									<div class="singer"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- !hot-album -->
+
+					<!-- vietnamese-music -->
+					<div class="vietnamese-music">
+						<div class="left">
+							<a href="#"><h3>Nhạc việt HOT <i class="fas fa-angle-right"></i></h3></a>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/hot/item1.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/hot/item2.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/hot/item3.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/hot/item4.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/hot/item5.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/hot/item6.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/hot/item7.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/hot/item8.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/hot/item9.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="right">
+							<a href="#"><h3>Nhạc việt mới <i class="fas fa-angle-right"></i></h3></a>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/new/item10.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/new/item1.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/new/item2.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/new/item3.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/new/item4.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/new/item5.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/new/item6.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/new/item7.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">
+									<div class="image">
+										<img src="images/vietnamese-music/new/item8.jpg" alt="">
+										<div class="overlay"></div>
+									</div>
+								</a>
+								<div class="info">
+									<div class="title"><a href="#">Người chẳng thương tôi</a></div>
+									<div class="singer"><a href="#">Wendy thảo</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- !vietnamese-music -->
+
+					<!-- hot-artist -->
+					<div class="hot-artist">
+						<a href="#"><h3>Nghệ sỹ hot <i class="fas fa-angle-right"></i></h3></a>	
+						<div class="wrapper">
+							<a href="#">
+								<div class="first-item">
+									<img src="./images/hot-artist/item1.jpg" alt="">
+									<div class="overlay"><p>Wendy thao</p></div>
+								</div>
+							</a>
+							<div class="right">
+								<div class="row">
+									<a href="#">
+										<div class="item">
+											<img src="./images/hot-artist/item1.jpg" alt="">
+											<div class="overlay"><p>Wendy thao</p></div>
+										</div>
+									</a>
+									<a href="#">
+										<div class="item">
+											<img src="./images/hot-artist/item2.jpg" alt="">
+											<div class="overlay"><p>Wendy thao</p></div>
+										</div>
+									</a>
+									<a href="#">
+										<div class="item">
+											<img src="./images/hot-artist/item3.jpg" alt="">
+											<div class="overlay"><p>Wendy thao</p></div>
+										</div>
+									</a>
+									<a href="#">
+										<div class="item">
+											<img src="./images/hot-artist/item4.jpg" alt="">
+											<div class="overlay"><p>Wendy thao</p></div>
+										</div>
+									</a>
+								</div>
+								<div class="row">
+									<a href="#">
+										<div class="item">
+											<img src="./images/hot-artist/item5.jpg" alt="">
+											<div class="overlay"><p>Wendy thao</p></div>
+										</div>
+									</a>
+									<a href="#">
+										<div class="item">
+											<img src="./images/hot-artist/item6.jpg" alt="">
+											<div class="overlay"><p>Wendy thao</p></div>
+										</div>
+									</a>
+									<a href="#">
+										<div class="item">
+											<img src="./images/hot-artist/item7.jpg" alt="">
+											<div class="overlay"><p>Wendy thao</p></div>
+										</div>
+									</a>
+									<a href="#">
+										<div class="item">
+											<img src="./images/hot-artist/item8.jpg" alt="">
+											<div class="overlay"><p>Wendy thao</p></div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- !hot-artist -->
+
+
+				</div>
+				<!-- main -->
+
+				<!-- sidebar -->
+				<div class="sidebar">
+
+					<!-- hot-topic -->
+					<div class="hot-topic">
+						<h3>Chủ đề hot</h3>
+						<a href="#">
+							<div class="item">
+								<img src="images/hot-topic/item1.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="item">
+								<img src="images/hot-topic/item2.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="item">
+								<img src="images/hot-topic/item3.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="item">
+								<img src="images/hot-topic/item4.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="item">
+								<img src="images/hot-topic/item5.jpg" alt="">
+							</div>
+						</a>
+						<a href="#"><h4>Xem thêm Chủ Đề khác <i class="fas fa-angle-right"></i></h4></a>
+					</div>
+					<!-- !hot-topic -->
+
+					<!-- weekly-chart-song -->
+					<div class="weekly-chart-song">
+						<h3>#zingchart tuần - bài hát</h3>
+						<a href="#">
+							<div class="first-item">
+								<div class="item">
+									<div class="number">01</div>
+										<div class="info">
+											<div class="title">một bước yêu vạn dặm đau</div>
+											<div class="singer">mr. siro</div>
+										</div>
+									<div class="view-count">4,033</div>
+								</div>
+								<div class="overlay"></div>
+							</div>
+						</a>
+						<div class="item">
+							<div class="number">02</div>
+							<div class="info">
+								<div class="title"><a href="#">một bước yêu vạn dặm đau</a></div>
+								<div class="singer"><a href="#">mr. siro</a></div>
+							</div>
+							<div class="view-count">4,033</div>
+						</div>
+						<div class="item">
+							<div class="number">03</div>
+							<div class="info">
+								<div class="title"><a href="#">một bước yêu vạn dặm đau</a></div>
+								<div class="singer"><a href="#">mr. siro</a></div>
+							</div>
+							<div class="view-count">4,033</div>
+						</div>
+						<div class="item">
+							<div class="number">04</div>
+							<div class="info">
+								<div class="title"><a href="#">một bước yêu vạn dặm đau</a></div>
+								<div class="singer"><a href="#">mr. siro</a></div>
+							</div>
+							<div class="view-count">4,033</div>
+						</div>
+						<div class="item">
+							<div class="number">05</div>
+							<div class="info">
+								<div class="title"><a href="#">một bước yêu vạn dặm đau</a></div>
+								<div class="singer"><a href="#">mr. siro</a></div>
+							</div>
+							<div class="view-count">4,033</div>
+						</div>
+						<div class="item">
+							<div class="number">06</div>
+							<div class="info">
+								<div class="title"><a href="#">một bước yêu vạn dặm đau</a></div>
+								<div class="singer"><a href="#">mr. siro</a></div>
+							</div>
+							<div class="view-count">4,033</div>
+						</div>
+						<div class="item">
+							<div class="number">07</div>
+							<div class="info">
+								<div class="title"><a href="#">một bước yêu vạn dặm đau</a></div>
+								<div class="singer"><a href="#">mr. siro</a></div>
+							</div>
+							<div class="view-count">4,033</div>
+						</div>
+						<div class="item">
+							<div class="number">08</div>
+							<div class="info">
+								<div class="title"><a href="#">một bước yêu vạn dặm đau</a></div>
+								<div class="singer"><a href="#">mr. siro</a></div>
+							</div>
+							<div class="view-count">4,033</div>
+						</div>
+						<div class="item">
+							<div class="number">09</div>
+							<div class="info">
+								<div class="title"><a href="#">một bước yêu vạn dặm đau</a></div>
+								<div class="singer"><a href="#">mr. siro</a></div>
+							</div>
+							<div class="view-count">4,033</div>
+						</div>
+						<div class="item">
+							<div class="number">10</div>
+							<div class="info">
+								<div class="title"><a href="#">một bước yêu vạn dặm đau</a></div>
+								<div class="singer"><a href="#">mr. siro</a></div>
+							</div>
+							<div class="view-count">4,033</div>
+						</div>
+					</div>
+					<!-- !weekly-chart-song -->
+
+					<!-- weekly-chart-mv -->
+					<div class="weekly-chart-mv">
+						<h3>#zingchart tuần - mv</h3>
+						<a href="#">
+							<div class="first-item">
+								<div class="overlay"></div>
+								<div class="item">
+									<div class="number">01</div>
+									<div class="info">
+										<div class="title">một bước yêu vạn dặm đau</div>
+										<div class="singer">mr. siro</div>
+									</div>
+									<div class="view-count">4,033</div>
+								</div>
+							</div>
+						</a>
+						<div class="item">
+							<a href="#">
+								<div class="image">
+									<div class="rank">02</div>
+									<img src="./images/hot-video/item1.jpg" alt="">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="info">
+								<div class="title"><a href="#">Bạc phận</a></div>
+								<div class="singer"><a href="#">Jack</a></div>
+								<div class="view-count">2,171</div>
+							</div>
+						</div>
+						<div class="item">
+							<a href="#">
+								<div class="image">
+									<div class="rank">03</div>
+									<img src="./images/hot-video/item1.jpg" alt="">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="info">
+								<div class="title"><a href="#">Bạc phận</a></div>
+								<div class="singer"><a href="#">Jack</a></div>
+								<div class="view-count">2,171</div>
+							</div>
+						</div>
+						<div class="item">
+							<a href="#">
+								<div class="image">
+									<div class="rank">04</div>
+									<img src="./images/hot-video/item1.jpg" alt="">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="info">
+								<div class="title"><a href="#">Bạc phận</a></div>
+								<div class="singer"><a href="#">Jack</a></div>
+								<div class="view-count">2,171</div>
+							</div>
+						</div>
+						<div class="item">
+							<a href="#">
+								<div class="image">
+									<div class="rank">05</div>
+									<img src="./images/hot-video/item1.jpg" alt="">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="info">
+								<div class="title"><a href="#">Bạc phận</a></div>
+								<div class="singer"><a href="#">Jack</a></div>
+								<div class="view-count">2,171</div>
+							</div>
+						</div>
+					</div>
+					<!-- !weekly-chart-mv -->
+
+					<!-- weekly-chart-album -->
+					<div class="weekly-chart-mv">
+						<h3>#zingchart tuần - album</h3>
+						<a href="#">
+							<div class="first-item">
+								<div class="overlay"></div>
+								<div class="item">
+									<div class="number">01</div>
+									<div class="info">
+										<div class="title">một bước yêu vạn dặm đau</div>
+										<div class="singer">mr. siro</div>
+									</div>
+									<div class="view-count">4,033</div>
+								</div>
+							</div>
+						</a>
+						<div class="item">
+							<a href="#">
+								<div class="image">
+									<div class="rank">02</div>
+									<img src="./images/hot-video/item1.jpg" alt="">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="info">
+								<div class="title"><a href="#">Bạc phận</a></div>
+								<div class="singer"><a href="#">Jack</a></div>
+								<div class="view-count">2,171</div>
+							</div>
+						</div>
+						<div class="item">
+							<a href="#">
+								<div class="image">
+									<div class="rank">03</div>
+									<img src="./images/hot-video/item1.jpg" alt="">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="info">
+								<div class="title"><a href="#">Bạc phận</a></div>
+								<div class="singer"><a href="#">Jack</a></div>
+								<div class="view-count">2,171</div>
+							</div>
+						</div>
+						<div class="item">
+							<a href="#">
+								<div class="image">
+									<div class="rank">04</div>
+									<img src="./images/hot-video/item1.jpg" alt="">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="info">
+								<div class="title"><a href="#">Bạc phận</a></div>
+								<div class="singer"><a href="#">Jack</a></div>
+								<div class="view-count">2,171</div>
+							</div>
+						</div>
+						<div class="item">
+							<a href="#">
+								<div class="image">
+									<div class="rank">05</div>
+									<img src="./images/hot-video/item1.jpg" alt="">
+									<div class="overlay"></div>
+								</div>
+							</a>
+							<div class="info">
+								<div class="title"><a href="#">Bạc phận</a></div>
+								<div class="singer"><a href="#">Jack</a></div>
+								<div class="view-count">2,171</div>
+							</div>
+						</div>	
+					</div>
+					<!-- !weekly-chart-mv -->
+
+					<!-- music-news -->
+					<div class="music-news">
+						<h3>tin tức âm nhạc</h3>
+						<div class="first-item">
+							<a href="#"><p>Điều gì khiến MV tình tay ba liên tục gây sốt thời gian qua</p></a>
+						</div>
+						<div class="item">
+							<a href="#"><div class="image">
+								<img src="./images/hot-video/item2.jpg" alt="">
+								<div class="overlay"></div>
+							</div></a>
+							<div class="info">
+								<a href="#"><p>Vpop đầu năm 2019: Khi những siêu hít được sinh ra từ status</p></a>
+							</div>
+						</div>
+						<div class="item">
+							<a href="#"><div class="image">
+								<img src="./images/hot-video/item3.jpg" alt="">
+								<div class="overlay"></div>
+							</div></a>
+							<div class="info">
+								<a href="#"><p>Vpop đầu năm 2019: Khi những siêu hít được sinh ra từ status</p></a>
+							</div>
+						</div>
+						<div class="item">
+							<a href="#"><div class="image">
+								<img src="./images/hot-video/item4.jpg" alt="">
+								<div class="overlay"></div>
+							</div></a>
+							<div class="info">
+								<a href="#"><p>Vpop đầu năm 2019: Khi những siêu hít được sinh ra từ status</p></a>
+							</div>
+						</div>
+					</div>
+					<!-- !music-news -->
+	
+
+				</div>
+				<!-- sidebar -->
+
+			</div>
+			<!-- main-content -->
+
+			<!-- partner -->
+			<div class="partner">
+				<h4>đối tác</h4>
+				<ul class="list-partner">
+					<li class="item">
+						<img src="./images/partner/item1.jpeg" alt="">
+					</li>
+					<li class="item">
+						<img src="./images/partner/item1.jpeg" alt="">
+					</li>
+					<li class="item">
+						<img src="./images/partner/item1.jpeg" alt="">
+					</li>
+					<li class="item">
+						<img src="./images/partner/item1.jpeg" alt="">
+					</li>
+					<li class="item">
+						<img src="./images/partner/item1.jpeg" alt="">
+					</li>
+					<li class="item">
+						<img src="./images/partner/item1.jpeg" alt="">
+					</li>
+					<li class="item">
+						<img src="./images/partner/item1.jpeg" alt="">
+					</li>
+					<li class="item">
+						<img src="./images/partner/item1.jpeg" alt="">
+					</li>
+					<li class="item">
+						<img src="./images/partner/item1.jpeg" alt="">
+					</li>
+				</ul>
+			</div>
+			<!-- partner -->
+
+		</div>
+		<!-- content -->
+
+		<div class="empty"></div>
+	</div>
+	<!-- !section -->
+
+	<!-- footer -->
+	<div class="footer">
+		<div class="empty"></div>
+
+		<footer>
+			<div class="copyright">
+				<div class="logo">
+					<img src="./images/icons/icon_zing_mp3_60.png" alt="">
+				</div>
+				<div class="company">
+					<div class="name"><p>&copy; 2015 VNG Corporation</p></div>
+					<div class="licence">Giấy phép MXH số 314/GP-BTTTT.</div>
+				</div>
+			</div>
+			<div class="link">
+				<ul class="link-item">
+					<a href="#"><li class="item">Giới thiệu</li></a>
+					<a href="#"><li class="item">Copyright</li></a>
+					<a href="#"><li class="item">APIs</li></a>
+				</ul>
+				<ul class="link-item">
+					<a href="#"><li class="item">Điều khoản</li></a>
+					<a href="#"><li class="item">Zing Mp3 VIP</li></a>
+					<a href="#"><li class="item">Liên hệ</li></a>
+				</ul>
+				<ul class="link-item">
+					<a href="#"><li class="item">Quảng cáo</li></a>
+					<a href="#"><li class="item">Ứng dụng</li></a>
+					<li class="item"></li>
+				</ul>
+				<ul class="link-item">
+					<a href="#"><li class="item">FAQs</li></a>
+					<a href="#"><li class="item">Góp ý</li></a>
+					<li class="item"></li>
+				</ul>
+			</div>
+			<div class="social">
+				<div class="list-social">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</div>
+				<div class="mobile-version">
+					<a href="#">Phiên bản mobile</a>
+				</div>
+			</div>
+		</footer>
+
+		<div class="empty"></div>
+	</div>
+	<!-- !footer -->
+	
 </body>
 </html>

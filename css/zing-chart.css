@@ -1,3 +1,7 @@
+.zing-chart {
+	margin-bottom: 16px;
+}
+
 .zing-chart .zing-chart-item {
 	padding: 8px 0px;
 	display: flex;
