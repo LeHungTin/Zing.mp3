@@ -3,9 +3,9 @@
 	flex-direction: column;
 }
 
-.music-news h3 {
+.music-news h4 {
 	color: rgb(128, 0, 128);
-	font-size: 1.5em;
+	margin-bottom: 8px;
 	font-weight: 300;
 	text-transform: uppercase;
 }
@@ -47,8 +47,8 @@
 }
 
 .music-news .item p {
-	padding: 0 16px;
-	font-size: 14px;
+	padding: 0 8px;
+	font-size: 13px;
 	color: #333;
 }
 

@@ -2,78 +2,81 @@
 	margin-bottom: 16px;
 }
 
-.zing-chart .zing-chart-item {
+.zing-chart-item {
 	padding: 8px 0px;
 	display: flex;
-	border-bottom: 1px solid #CCC;
+	border-bottom: 1px solid #DDD;
 }
 
-.zing-chart .zing-chart-item .number {
+.zing-chart-item .number {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 0 16px;
-	font-size: 28px;
+	font-size: 20px;
 	font-weight: 400;
 }
 
-.zing-chart .zing-chart-item .number i {
+.zing-chart-item .number i {
 	margin-left: 16px;
 	font-size: 0.5em;
+	color: #999;
 }
 
-.zing-chart .zing-chart-item .info {
+.zing-chart-item .info {
 	display: flex;
 	align-items: center;
 	flex-grow: 1;
 }
 
-.zing-chart .zing-chart-item .info .image {
+.zing-chart-item .image {
 	position: relative;
 	width: 60px;
 	height: 60px;
 }
 
-.zing-chart .zing-chart-item .info .image:hover .overlay{
+.zing-chart-item .image:hover .overlay{
 	opacity: 1;
 }
 
-.zing-chart .zing-chart-item .info .image img {
+.zing-chart-item .image img {
 	width: 100%;
 	height: 100%;
 }
 
-.zing-chart .zing-chart-item .info .song {
+.zing-chart-item .song {
 	padding: 0 16px;
 }
 
-.zing-chart .zing-chart-item .info .song .title {
+.zing-chart-item .title {
 	font-size: 14px;
 	margin-bottom: 8px;
 	text-transform: uppercase;
+	font-weight: 600;
 }
 
-.zing-chart .zing-chart-item .info .song .singer {
+.zing-chart-item .singer a {
 	font-size: 13px;
 	color: #999;
 }
 
-.zing-chart .zing-chart-item .icon {
+.zing-chart-item .icon {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	color: #CCC;
 }
 
-.zing-chart .zing-chart-item .icon i {
+.zing-chart-item .icon i {
 	margin: 0 8px;
+	color: #999;
 }
 
-.zing-chart .zing-chart-item .info .icon i {
+.zing-chart-item .info .icon i {
 	margin: 0 2px;
 }
 
-.zing-chart .zing-chart-item .view-count {
+.zing-chart-item .view-count {
 	padding: 0 16px;
 	color: #999;
 	display: flex;

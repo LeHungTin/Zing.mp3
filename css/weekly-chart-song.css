@@ -3,11 +3,11 @@
 	flex-direction: column;
 }
 
-.weekly-chart-song h3 {
+.weekly-chart-song h4 {
 	color: rgb(128, 0, 128);
-	font-size: 1.5em;
 	font-weight: 300;
 	text-transform: uppercase;
+	margin-bottom: 16px;
 }
 
 .weekly-chart-song .first-item {
@@ -20,8 +20,8 @@
 
 .weekly-chart-song .first-item .item {
 	width: 100%;
-	position: absolute;
 	color: #FFF;
+	position: absolute;
 	bottom: 0;
 	padding: 0;
 	border-bottom: none;
@@ -43,9 +43,9 @@
 	justify-content: center;
 	align-items: center;
 	display: flex;
-	padding: 16px 0;
-	margin-bottom: 16px;
-	border-bottom: 1px solid #DDD;
+	padding: 8px 0;
+	margin-bottom: 8px;
+	border-bottom: 1px solid #CCC;
 }
 
 .weekly-chart-song .item .number {
@@ -60,11 +60,12 @@
 	flex-grow: 1;
 }
 
-.weekly-chart-song .item .info .title {
+.weekly-chart-song .item .title {
+	font-weight: 500;
 	margin-bottom: 8px;
 }
 
-.weekly-chart-song .item .info .singer {
+.weekly-chart-song .item .singer a {
 	color: #999;
 	font-size: 13px;
 }

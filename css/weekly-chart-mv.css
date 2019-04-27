@@ -3,9 +3,9 @@
 	flex-direction: column;
 }
 
-.weekly-chart-mv h3 {
+.weekly-chart-mv h4 {
 	color: rgb(128, 0, 128);
-	font-size: 1.5em;
+	margin-bottom: 8px;
 	font-weight: 300;
 	text-transform: uppercase;
 }
@@ -47,11 +47,16 @@
 	opacity: 1;
 }
 
-.weekly-chart-mv .item .info .title {
-	margin-bottom: 8px;
+.weekly-chart-mv .item {
+	padding: 8px 0;
 }
 
-.weekly-chart-mv .item .info .singer {
+.weekly-chart-mv .item .title {
+	margin-bottom: 8px;
+	font-weight: 500;
+}
+
+.weekly-chart-mv .item .singer {
 	color: #999;
 	font-size: 13px;
 }
@@ -60,11 +65,10 @@
 	color: #999;
 }
 
-
 .weekly-chart-mv .item {
 	display: flex;
-	padding: 15px 10px 15px 0;
-	margin-bottom: 15px;
+	padding: 8px 10px 8px 0;
+	margin-bottom: 8px;
 	border-bottom: 1px solid #DDD;
 }
 
@@ -81,7 +85,7 @@
 .weekly-chart-mv .item .rank {
 	position: absolute;
 	color: #FFF;
-	left: 2%;px;
+	left: 8px;
 	font-size: 24px;
 	bottom: 2%;
 }
@@ -98,6 +102,6 @@
 	padding: 0 16px;
 }
 
-.weekly-chart-mv .item .info .singer {
+.weekly-chart-mv .item .singer {
 	margin-bottom: 8px;
 }

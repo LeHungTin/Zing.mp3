@@ -10,52 +10,49 @@
 	margin-bottom: 8px;
 }
 
-.hot-video p {
-	color: ;
-	margin: 0 0 20px;
-}
-
-.hot-video .wrapper {
+.hot-video-content {
  	display: flex;
  	flex-direction: column;
 }
 
-.hot-video .wrapper .row {
+.hot-video-content .row {
 	display: flex;
 }
 
-.hot-video .hot-video-item {
+.hot-video-item {
 	width: 180px;
 	display: flex;
 	flex-direction: column;
 	min-height: 150px;
 	padding: 0 8px;
+	flex-basis: 25%;
 }
 
-.hot-video .hot-video-item .image {
+.hot-video-item .image {
 	width: 142px;
 	height: 80px;
 	position: relative;
 	margin-bottom: 10px;
 }
 
-.hot-video .hot-video-item .image:hover .overlay{
+.hot-video-item .image:hover .overlay{
 	opacity: 1;
 }
 
-.hot-video .hot-video-item .image img{
+.hot-video-item .image img{
 	width: 100%;
 	height: 100%;
 }
 
-.hot-video .hot-video-item .title {
+.hot-video-item .title {
 	font-weight: 500;
 	font-size: 14px;
 	text-transform: capitalize;
 	margin-bottom: 8px;
+	font-weight: 600;
 }
 
-.hot-video .hot-video-item .singer {
+.hot-video-item .singer {
 	font-weight: 300;
 	font-size: 13px;
 	color: #999;

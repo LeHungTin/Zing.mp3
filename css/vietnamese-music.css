@@ -14,7 +14,7 @@
 .vietnamese-music .left {
 	flex-basis: 50%;
 	padding: 0 12px 0 6px;
-	border-right: 1px solid #CCC;
+	border-right: 1px solid #DDD;
 }
 
 .vietnamese-music .right {
@@ -22,15 +22,9 @@
 	padding: 0 6px 0 12px;
 }
 
-.vietnamese-music .left .item {
+.vietnamese-music .item {
 	display: flex;
-	padding-bottom: 16px;
-	border-bottom: 1px solid #DDD;
-}
-
-.vietnamese-music .right .item {
-	display: flex;
-	padding-bottom: 16px;
+	padding: 8px 0;
 	border-bottom: 1px solid #DDD;
 }
 
@@ -53,13 +47,14 @@
 	padding: 0 16px;
 }
 
-.vietnamese-music .item .info .title {
+.vietnamese-music .item .title {
 	text-transform: capitalize;
 	margin-bottom: 8px;
+	font-weight: 500;
 }
 
-.vietnamese-music .item .info .singer {
+.vietnamese-music .item .singer a {
 	text-transform: capitalize;
 	font-size: 13px;
-	color: #999;
+	color: #666;
 }
